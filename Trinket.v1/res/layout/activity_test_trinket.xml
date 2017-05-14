@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/button_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/capturegreenbtn" />
+
+    <TableLayout
+        android:id="@+id/nextTableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="bottom"
+        android:shrinkColumns="0"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/exitBtnCamera"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:src="@drawable/ic_clear_64" />
+
+            <TextView android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/retryBtnCamera"
+                android:layout_marginRight="35dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:src="@drawable/ic_navigate_next" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp" >
+
+            <TextView 
+                
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="45dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:text="Exit"
+                android:textColor="#ff444444" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/nextTxt"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:text="Retry"
+                android:textColor="#ff444444" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
+

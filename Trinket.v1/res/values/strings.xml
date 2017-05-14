@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pixie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Pixie</string>
+    <string name="title_activity_web">MyFIU</string>
+    <string name="title_activity_login">Login</string>
+    <string name="action_exit">Exit</string>
+    <string name="introduction">Enter your MyFIU credentials, then choose a trinket 
+        to later access your account.\n\n
+        Follow the below steps:\n\n
+    	1. Choose a trinket\n 
+    	2. Take 3 photos of the trinket from the same angle\n
+    	3. To login, take a photo of your trinket from the same angle\n
+    	4. Enter your MyFIU credentials
+		\n\nPress next to start.\n</string>
+    <string name="enterFIUCred">Please enter your MyFIU credientials: </string>
+    <string name="errors">If you have recieved an error while taking a picture of trinket please make sure:
+        \n\n1.You are taking the image of the same trinket
+        \n\n2.The trinket does not have a plain texture
+        \n\n3.There is enough light</string>
+    <string name="refSetError">
+        Please check out the 
+        following possible reasons and retry:\n\n1. Insufficient lighting\n2. The trinket has plain texture\n3. The photos you took (see below) are not from the same object\n
+    </string>
+    <string name="title_activity_tain">TainActivity</string>
+    <string name="title_activity_test_trinket">TestTrinket</string>
+    <string name="title_activity_restore_ref_set">RestoreRefSetActivity</string>
+
+</resources>

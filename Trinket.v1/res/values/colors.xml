@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="greenm">#33AC71</color>
+    <color name="darkgreenm">#267F54</color>
+    <color name="color2">#ea5265</color>
+    <color name="color3">#f4b61a</color>
+    <color name="redm">#E06055</color>
+    <color name="darkredm">#A6473F</color>
+    <color name="bluem">#5E97F6</color>
+    <color name="darkbluem">#4670B6</color>
+    <color name="purplem">#5C6BC0</color>
+    <color name="darkpurplem">#444F8E</color>
+</resources>

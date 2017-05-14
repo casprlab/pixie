@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.image.password.trinket.v0.MainActivity" >
+    
+    <item
+        android:id="@+id/action_entertxtPw"
+        android:orderInCategory="1"
+        android:title="Enter MyFIU Credientials"
+        android:icon="@drawable/user_account_key"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_resetFiu"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Reset MyFIU Credientials"/>
+    
+    <item
+        android:id="@+id/action_resetTrinket"
+        android:showAsAction="never"
+        android:orderInCategory="3"
+        android:title="Reset Trinket"/>
+    
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="Logout"/>
+    
+    <item
+        android:id="@+id/action_restoreTrinket"
+        android:orderInCategory="6"
+        android:showAsAction="never"
+        android:title="Restore Trinket"/>
+    
+
+</menu>

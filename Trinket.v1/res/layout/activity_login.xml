@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.image.password.trinket.v1.LoginActivity" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="4"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:shrinkColumns="0"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/enterFIUCred"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff444444" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/usernameTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:hint="Username"
+                android:singleLine="true"
+                android:textColor="#ff444444" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/passwordTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="#ff444444"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/errorMsg"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Your MyFIU username and/or password are invalid. Please try again."
+                android:textColor="#99FF004D"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:gravity="bottom"
+        android:shrinkColumns="0"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/cancelBtnLogIn"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:src="@drawable/ic_backspace" />
+
+            <TextView android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/logInBtn"
+                android:layout_marginRight="35dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:src="@drawable/ic_person_add" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp" >
+
+            <TextView
+                android:id="@+id/cancelTxtLogIn"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="37dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:text="Cancel"
+                android:textColor="#ff444444" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/nextTxtLogIn"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="35dp"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:text="Login"
+                android:textColor="#ff444444" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
