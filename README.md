@@ -10,6 +10,7 @@ See our project page [casprlab.github.io](https://casprlab.github.io) for more i
 
 # Installation
 
-Download and install the trinket.v1.apk on you mobile device. 
+Download and install the Trinket.v1.apk on you mobile device. 
 This app requires the OpenCV Manager (compatible with arm7 processors) to be installed on your device. Therefore, this app might not  support devices with arm8 architecture, etc.
+
 Please also see our [privacy policy](PrivacyPolicy.md).
