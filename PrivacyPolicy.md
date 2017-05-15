@@ -2,7 +2,7 @@
 
 Welcome to Pixie. Pixie is a prototype that provides a fun way for you to perform authentication to your MyFIU account. Just snap a photo of a readily availabe and uniqe object you own to use it as your authentication credential. 
 
-By using our service you underestand and agree that we are providing a way for you to use the image of an object of your preference as your authentication credenial to login to you MyFIU account.
+By using our service you underestand and agree that we are providing a way for you to use the image of an object of your preference as your authentication credenial to login to your MyFIU account.
 
 Pixie app requires following permission: 
 - Read/Write the data from/to the device SD card.
