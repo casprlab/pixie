@@ -9,4 +9,4 @@ Pixie app requires following permission:
 - Access to camera 
 - Access to Internet
 
-We do not collect any information from you including the followings: your username and password for MyFIU account, cookies and similar technologies, the images of object you choose as your thinket. However, the image you take are stored locally on your mobile device SD card under Pixie directory. Uninstalling the app does not remove the data stored in this directory. Therefore, you need to manually remove the data. 
+We do not collect any information from you including the followings: your username and password for MyFIU account, cookies and similar technologies, the images of object you choose as your thinket. However, the image you take are stored locally on your mobile device SD card under Pixie directory. Uninstalling the app does not remove the data stored in this directory. Therefore, you need to manually remove this directory. 
