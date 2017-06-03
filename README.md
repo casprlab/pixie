@@ -1,5 +1,4 @@
 # Pixie
-Camera Based Two Factor Authentication Through Mobile and Wearable Devices
 
 The following are included in this repository:
 - Source code for mobile app
