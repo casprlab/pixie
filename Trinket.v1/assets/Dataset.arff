@@ -1,0 +1,34 @@
+@relation ORB_Reach_tempMatching
+
+@attribute minSim real
+@attribute maxSim real
+@attribute tempSim real
+@attribute MeanMinSim real
+@attribute MeanMaxSim real
+@attribute MeanTempSim real
+@attribute numKPQ numeric
+@attribute numKPT numeric
+@attribute numMatch numeric
+@attribute maxDist real
+@attribute minDist real
+@attribute meanDist real
+@attribute stdDist real
+@attribute meanObjSize real
+@attribute stdObjSize real
+@attribute meanSceSize real
+@attribute stdSceSize real
+@attribute meanObjRes real
+@attribute stdObjResp real
+@attribute meanSceResp real
+@attribute stdSceResp real
+@attribute meanObjAngle real
+@attribute stdObjAngle real
+@attribute meanSceAngle real
+@attribute stdSceAngle real
+@attribute h1 real
+@attribute h2 real
+@attribute h3 real
+@attribute numMatchHomo numeric
+@attribute class {1,0}
+
+@data
